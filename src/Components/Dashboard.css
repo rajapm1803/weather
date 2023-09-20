@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  table{
+    width: 100%;
+  }
+  td,th{
+    text-align: center;
+  }
+  .my-button {
+    transition: transform 0.3s ease; 
+  }
+  
+  .my-button:hover {
+    transform: scale(1.1) 
+  }
+ 
+ 
+  @media (max-width:350px){
+    table, th, td {
+        font-size: 10px;
+      }
+  }  
+  
+  
+  
+  
